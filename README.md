@@ -11,16 +11,22 @@ and lets you quickly expose your local json server with one easy command!
 
 ## Usage
 
+It's recommended to install jsongrok-server globally:
+
+```sh
+npm install -g jsongrok-server
+```
+
 You can use jsongrok-server to create a server from `.json` file on your
 machine:
 
 ```sh
-npx jsongrok-server db.json
+jsongrok-server db.json
 ```
 
 You can also use jsongrok-server to create a server from a `.json` file
 by providing a URL:
 
 ```sh
-npx jsongrok-server https://raw.githubusercontent.com/ihollander/jsongrok-server/master/db.json
+jsongrok-server https://raw.githubusercontent.com/ihollander/jsongrok-server/master/db.json
 ```
